@@ -508,7 +508,7 @@ body {
         .es-formula .es-header {
             max-width: max-content;
             padding-inline: $padding-XXL;
-            border-radius: 0 0 $padding-XS 0;
+            border-radius: $padding-XS 0 $padding-XS 0;
             margin: auto;
         }
 
@@ -632,7 +632,7 @@ body {
         }
 
         .es-kv__text {
-            max-width: 360px;
+            max-width: 345px;
         }
 
         .es-features {
@@ -640,7 +640,7 @@ body {
         }
 
         .es-features__text {
-            font-size: 1.3em;
+            font-size: 1.5em;
         }
 
         .es-formula {
@@ -658,12 +658,11 @@ body {
             flex-basis: 50%;
             display: grid;
             align-content: flex-start;
-            max-width: 360px;
+            max-width: 380px;
         }
 
         .es-formula__single:hover {
             box-shadow: 1px 1px 15px 3px rgba(0, 0, 1, 0.1);
-
         }
 
         .es-cross {
@@ -674,12 +673,13 @@ body {
 
         .es-cross__left {
             justify-content: center;
-            width: 45%;
+            width: 40%;
             gap: $padding-L;
         }
 
         .es-cross__wrapper {
             padding: 0 $padding-S;
+            width: 60%;
         }
 
         .es-cross__single {
@@ -690,16 +690,16 @@ body {
         }
 
         .es-cross__name {
-            font-size: 12px;
+            font-size: 14px;
             padding: 6px 12px;
-            width: unset;
+            width: 90%;
             height: 4em;
             display: grid;
             place-items: center;
         }
 
         .es-cross__desc {
-            font-size: 10px;
+            font-size: 11px;
             height: 3em;
         }
 
